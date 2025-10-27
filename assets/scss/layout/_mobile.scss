@@ -1,0 +1,52 @@
+@use "../abstracts/variables" as var;
+
+.mobile {
+    margin-top: 100px;
+    background-image: url(../img/latest-products-bg.webp);
+    background-position: center;
+    background-size: cover;
+
+    padding: 50px 0;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .mobile-content {
+            ul {
+
+                .list-primary {
+                    margin-top: 10px;
+                    padding: 5px;
+                    border: 1px solid var.$transparent-bg;
+                    border-radius: 5px;
+                    max-width: 50%;
+
+                    a {
+                        color: var.$color-white;
+                    }
+                }
+
+                .mobile-condition {
+                    color: var.$transparent-bg;
+                }
+
+                .mobile-btn {
+                    margin-top: 10px;
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+
+                    li {
+                        .btn-secondary {
+                            border: 1px solid var.$title-color;
+                            background-color: transparent;
+                            color: var.$title-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

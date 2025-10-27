@@ -5,13 +5,10 @@
     padding: 60px 0;
 
     .banner-container {
-        background-color: var.$promo-btn-color;
+        background-color: var.$transparent-bg;
+        backdrop-filter: blur(3px);
         padding: 20px;
         margin-top: 350px;
         width: 50%;
-
-        h1 {
-            color: var.$title-color;
-        }
     }
 }

@@ -4,6 +4,11 @@ body {
     margin: 0;
     font-family: var.$main-font;
     background-color: var.$primary-color;
+    color: var.$color-white;
+
+    * {
+        box-sizing: border-box;
+    }
 
     a {
         text-decoration: none;
@@ -11,5 +16,13 @@ body {
 
     li {
         list-style-type: none;
+    }
+
+    h1 {
+        color: var.$title-color;
+    }
+
+    h2 {
+        color: var.$title-color;
     }
 }

@@ -1,0 +1,28 @@
+@use "../abstracts/variables" as var;
+
+footer {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .footer-title {
+            text-align: center;
+        }
+
+        .footer-list {
+            display: flex;
+            gap: 20px;
+
+            a {
+                color: var.$color-white;
+            }
+        }
+
+        .footer-légal {
+            p {
+                color: var.$transparent-bg;
+            }
+        }
+    }
+}
