@@ -207,6 +207,7 @@ body h2 {
 
 .product {
   text-align: center;
+  margin-top: 100px;
 }
 .product .product-container {
   display: grid;
