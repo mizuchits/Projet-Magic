@@ -1,0 +1,17 @@
+@use "../abstracts/variables" as var;
+
+.banner {
+    background-image: url(../img/banner.webp);
+    padding: 60px 0;
+
+    .banner-container {
+        background-color: var.$promo-btn-color;
+        padding: 20px;
+        margin-top: 350px;
+        width: 50%;
+
+        h1 {
+            color: var.$title-color;
+        }
+    }
+}

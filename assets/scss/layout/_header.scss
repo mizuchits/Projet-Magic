@@ -1,0 +1,37 @@
+@use "../abstracts/variables" as var;
+
+header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var.$primary-color;
+    padding: 20px 0;
+
+    img {
+        height: 50px;
+    }
+
+    div {
+        display: flex;
+        justify-content: space-between;
+
+        gap: 35%;
+        margin: 6px 5%;
+    }
+
+    .header-container {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+
+        .border {
+            padding-right: 10px;
+            border-right: 1px solid var.$color-white;
+        }
+
+        a {
+            color: var.$color-white;
+        }
+    }
+
+}

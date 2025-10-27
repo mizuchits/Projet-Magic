@@ -1,0 +1,15 @@
+@use "../abstracts/variables" as var;
+
+body {
+    margin: 0;
+    font-family: var.$main-font;
+    background-color: var.$primary-color;
+
+    a {
+        text-decoration: none;
+    }
+
+    li {
+        list-style-type: none;
+    }
+}

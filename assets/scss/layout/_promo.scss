@@ -1,0 +1,29 @@
+@use "../abstracts/variables" as var;
+
+.promo {
+    background-color: var.$title-color;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        p {
+            color: var.$color-white;
+
+            a {
+                background-color: var.$promo-btn-color;
+                padding: 3px;
+                color: var.$color-white;
+                border-radius: 5px;
+            }
+        }
+
+        div {
+            .btn {
+                background-color: var.$color-white;
+                color: var.$color-black;
+            }
+        }
+    }
+}

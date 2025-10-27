@@ -1,0 +1,9 @@
+@use "../abstracts/variables" as var;
+
+.btn {
+    padding: 7px 20px;
+    background-color: var.$title-color;
+    border-radius: 5px;
+    display: inline-block;
+    color: var.$color-white;
+}

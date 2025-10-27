@@ -1,3 +1,97 @@
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
 
+@font-face {
+  font-family: "Roboto Medium";
+  src: url(../fonts/static/Roboto-Medium.ttf);
+}
+.btn {
+  padding: 7px 20px;
+  background-color: #C93814;
+  border-radius: 5px;
+  display: inline-block;
+  color: white;
+}
+
+.banner {
+  background-image: url(../img/banner.webp);
+  padding: 60px 0;
+}
+.banner .banner-container {
+  background-color: rgba(233, 233, 233, 0.329);
+  padding: 20px;
+  margin-top: 350px;
+  width: 50%;
+}
+.banner .banner-container h1 {
+  color: #C93814;
+}
+
+header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #0B0D0F;
+  padding: 20px 0;
+}
+header img {
+  height: 50px;
+}
+header div {
+  display: flex;
+  justify-content: space-between;
+  gap: 35%;
+  margin: 6px 5%;
+}
+header .header-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+header .header-container .border {
+  padding-right: 10px;
+  border-right: 1px solid white;
+}
+header .header-container a {
+  color: white;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto regular";
+  background-color: #0B0D0F;
+}
+body a {
+  text-decoration: none;
+}
+body li {
+  list-style-type: none;
+}
+
+.promo {
+  background-color: #C93814;
+}
+.promo .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.promo .container p {
+  color: white;
+}
+.promo .container p a {
+  background-color: rgba(233, 233, 233, 0.329);
+  padding: 3px;
+  color: white;
+  border-radius: 5px;
+}
+.promo .container div .btn {
+  background-color: white;
+  color: black;
+}
 
 /*# sourceMappingURL=style.css.map */
